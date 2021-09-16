@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food ordering</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" href="images/favicon.png" type="image/icon type" >
+</head>
+<body>
+    
+    <fieldset>
+        <legend>customer order</legend>
+        <form action="" method="GET">
+            <p ><b>Note</b> : every field in this form is required
+            to have at least one value .</p>
+                <!--choose the restaurant-->
+                <div class="place">
+                    <label for="restaurant_place">choose the Restaurant :</label>
+                    <select name="restaurant" id="restaurant_place">
+                        <option value="none"  >none</option>
+                        <option value="mix-max__monastir">MixMax Monastir</option>
+                        <option value="planb__monastir">PlanB Monastir</option>
+                        <option value="kfc__mallofsousse" checked>KFC Mall Of Sousse</option>
+                        <option value="chaneeb__sousse">Chaneb Sousse</option>
+                        <option value="planb__sousse">PlanB Sousse</option>
+                    </select>
+                </div>
+                <!--choose the food-->
+                <div class="food">
+                    <label for="type_food">choose the food :</label>
+                    <select name="food" id="type_food">
+                        <option value="none"  >none</option>
+                        <option class="chapati" value="chapati">Chapati 4.500dt </option>
+                        <option class="mlawi" value="mlawi">Mlawi  7dt</option>
+                        <option class="sandwitch" value="sandwitch">Sandwitch 10dt</option>
+                        <option class="tacos" value="tacos">Tacos 8.500dt</option>
+                    </select>
+                </div>
+                <!--choose extra food-->
+                <div class="extra_order">
+                   <p> what do you want else ? </p>
+                   
+                       <label for="mayo">mayonnaise</label>
+                       <input type="checkbox" id="mayo" name="extra-food" value="mayonnaise" >
+                       
+                       <label for="ket">ketchup</label>
+                       <input type="checkbox" id="ket" name="extra-food" value="ketchup" >
+                       
+                       <label for="frit">frites</label>
+                       <input type="checkbox" id="frit" name="extra-food" value="frites" >
+
+                       <label for="sau_bar">sauce barbecue</label>
+                       <input type="checkbox" id="sau_bar" name="extra-food" value="sauce-barbecue" >
+                </div>
+                <!--point of view of previews order-->
+                <div class="point-vue">
+                    <p>what do you think about our service ?</p>
+
+                    <input type="radio" id="not-satisfied" name="ordering-point-vue" value="not-satisfied">
+                    <label for="not-satisfiad"> not satisfied</label>
+                      
+                    <input type="radio" id="good" name="ordering-point-vue" value="good">
+                    <label for="good"> Good!</label>
+
+                    <input type="radio" id="excelent" name="ordering-point-vue" value="excelent">
+                    <label for="excelent">Excelent!!</label>
+                </div>
+                <!--message from client-->
+                <div class="about">
+                    <label for="message" > write us a message</label>
+                    <textarea id="message" name="message" rows="10" cols="50"  >write us about the previews order you receive :</textarea>
+                </div>
+                
+            <input type="submit" value="SEND ORDER NOW" class="send_form">
+        </form>
+      
+    </fieldset>
+
+    <div class="pub"><img src="./images/food.jpg" alt="food image"> 
+        
+    <div>it's you time ? <br>order foods with our online service.</div>
+    </h2>
+
+</body>
+</html>

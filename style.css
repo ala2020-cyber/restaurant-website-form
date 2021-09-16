@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Alex+Brush&family=Architects+Daughter&display=swap');
+body {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background:#941b0c;
+    display:flex;
+    justify-content:center;
+}
+.pub {
+    align-self:flex-start;
+    font-family:"Architects Daughter";
+    font-size:2rem;
+    margin-top:130px;
+}
+img {
+    border-radius: 10px;
+}
+
+fieldset {
+    width:600px;
+    height:970px;
+    background:#ffd400;
+    border-radius:10px;
+    margin:30px;
+    border:3.2px solid ;
+}
+legend {
+    font-family:"Aclonica";
+    font-size:1.8rem;
+    text-align:center;
+    background:white;
+    border:3.2px solid ;
+    border-radius: 10px;
+  
+}
+p{
+    font-family:"Architects Daughter";/* Advent Pro*/
+    font-size:1.5rem;
+    padding:10px;
+    border:1px solid ;
+    border-radius:10px;
+    margin-block:25px;
+}
+
+label {
+    font-family:sans-serif;
+    font-size:1.4rem;
+    padding-right:7px;
+    padding-left:3px;
+    
+}
+
+input {
+    margin-right:12px;
+   
+}
+
+select {
+    background:rgb(0,0 , 0,0.09);
+    padding-block:6px;
+    padding-inline:10px;
+    border-radius:10px;
+    outline:none;
+    font-size:1rem;
+   
+}
+select:focus {
+    padding-block:6px;
+    padding-inline:8px;
+    border-radius:10px;
+    border:2px solid black;
+}
+
+.place,.food,.extra_order,.point-vue {
+    margin-bottom:25px;
+}
+.extra_order {
+    text-align:center;
+    margin-top:50px;
+}
+
+
+.send_form {
+    border-radius:8px;
+    position:absolute;
+    top:970px;
+    margin-inline:210px;
+    font-size:1rem;
+    background:white;
+}
+
+.send_form:hover{
+    border-radius:8px;
+    position:absolute;
+    top:970px;
+    margin-inline:210px;
+    font-size:1rem;
+    background:black;
+    color:white;
+    
+}
+ .about {
+   text-align:center;
+   margin-block:15px;
+ }
+ .point-vue {
+    text-align:center;
+    margin-top:50px;
+    padding-block:15px;
+    border-bottom:1px solid #941b0c;
+}
+
+textarea {
+    resize: vertical;
+    max-height:240px;
+}
+
+
